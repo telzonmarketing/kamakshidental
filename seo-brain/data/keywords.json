@@ -1,0 +1,41 @@
+{
+  "intentWeights": {
+    "best": 1,
+    "near me": 0.95,
+    "cost": 0.88,
+    "emergency": 0.84,
+    "24 hours": 0.72
+  },
+  "intents": [
+    {
+      "slug": "best",
+      "label": "best",
+      "titlePrefix": "Best",
+      "modifier": "best rated"
+    },
+    {
+      "slug": "near-me",
+      "label": "near me",
+      "titlePrefix": "Dentist Near Me",
+      "modifier": "near me"
+    },
+    {
+      "slug": "cost",
+      "label": "cost",
+      "titlePrefix": "Cost of",
+      "modifier": "cost"
+    },
+    {
+      "slug": "emergency",
+      "label": "emergency",
+      "titlePrefix": "Emergency",
+      "modifier": "same day"
+    },
+    {
+      "slug": "24-hours",
+      "label": "24 hours",
+      "titlePrefix": "24 Hours",
+      "modifier": "extended hours"
+    }
+  ]
+}

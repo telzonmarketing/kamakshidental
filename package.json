@@ -1,0 +1,15 @@
+{
+  "name": "kamakshi-dental-seo",
+  "version": "2.0.0",
+  "description": "57 micro-pages + auto Google indexing for Kamakshi Dental",
+  "scripts": {
+    "generate": "node generate-pages.js",
+    "submit": "node submit-index.js",
+    "seo:build": "node seo-brain/scripts/buildPages.js",
+    "seo:update": "node seo-brain/scripts/updateContent.js",
+    "seo:sitemap": "node seo-brain/scripts/generateSitemap.js",
+    "seo:dashboard": "node seo-brain/scripts/generateDashboard.js",
+    "seo:loop": "npm run seo:build && npm run seo:update && npm run seo:sitemap && npm run seo:dashboard"
+  },
+  "dependencies": { "googleapis": "^126.0.0" }
+}

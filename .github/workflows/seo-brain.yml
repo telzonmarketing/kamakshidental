@@ -1,0 +1,28 @@
+name: SEO Brain Automation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *"
+
+jobs:
+  seo-brain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+      - name: Install dependencies
+        run: npm install
+      - name: Build SEO manifest
+        run: npm run seo:build
+      - name: Update content recommendations
+        run: npm run seo:update
+      - name: Regenerate sitemap
+        run: npm run seo:sitemap
+      - name: Upload SEO artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-brain-output
+          path: seo-brain/output

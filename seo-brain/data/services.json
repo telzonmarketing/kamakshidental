@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "dentist",
+    "name": "Dentist",
+    "category": "General Dentistry"
+  },
+  {
+    "slug": "dental-implants",
+    "name": "Dental Implants",
+    "category": "Dental Implants"
+  },
+  {
+    "slug": "invisalign",
+    "name": "Invisalign",
+    "category": "Invisalign"
+  },
+  {
+    "slug": "root-canal-treatment",
+    "name": "Root Canal Treatment",
+    "category": "Root Canal Treatment"
+  },
+  {
+    "slug": "teeth-whitening",
+    "name": "Teeth Whitening",
+    "category": "Teeth Whitening"
+  }
+]

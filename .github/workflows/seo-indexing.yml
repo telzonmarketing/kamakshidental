@@ -1,0 +1,36 @@
+name: SEO Auto Indexing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'
+
+jobs:
+  wake-submit-ping-sleep:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GitHub wakes up
+        run: echo "Starting daily indexing workflow for Kamakshi Dental"
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install Google Indexing dependency
+        run: npm install googleapis
+
+      - name: Submit all published URLs to Google
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+        run: node submit-index.js
+
+      - name: Ping Google Sitemap
+        run: curl -s "https://www.google.com/ping?sitemap=https://kamakshidental.in/sitemap.xml" && echo "Google pinged"
+
+      - name: Ping Bing Sitemap
+        run: curl -s "https://www.bing.com/ping?sitemap=https://kamakshidental.in/sitemap.xml" && echo "Bing pinged"
+
+      - name: Goes back to sleep
+        run: echo "Indexing workflow complete"

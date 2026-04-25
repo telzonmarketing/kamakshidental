@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-04-24T08:43:28.731Z",
+  "totalOpportunities": 75,
+  "livePagesMatched": 75,
+  "topOpportunities": [
+    {
+      "slug": "best-dentist-indiranagar",
+      "title": "Best Dentist in Indiranagar",
+      "score": 77.4,
+      "published": true
+    },
+    {
+      "slug": "invisalign-near-me-indiranagar",
+      "title": "Invisalign Near Me in Indiranagar",
+      "score": 73.1,
+      "published": true
+    },
+    {
+      "slug": "dental-implants-cost-rr-nagar",
+      "title": "Cost of Dental Implants in RR Nagar",
+      "score": 69.5,
+      "published": true
+    },
+    {
+      "slug": "best-dental-implants-indiranagar",
+      "title": "Best Dental Implants in Indiranagar",
+      "score": 63.2,
+      "published": true
+    },
+    {
+      "slug": "best-invisalign-indiranagar",
+      "title": "Best Invisalign in Indiranagar",
+      "score": 63.2,
+      "published": true
+    },
+    {
+      "slug": "best-root-canal-treatment-indiranagar",
+      "title": "Best Root Canal Treatment in Indiranagar",
+      "score": 63.2,
+      "published": true
+    },
+    {
+      "slug": "best-teeth-whitening-indiranagar",
+      "title": "Best Teeth Whitening in Indiranagar",
+      "score": 63.2,
+      "published": true
+    },
+    {
+      "slug": "best-dentist-rr-nagar",
+      "title": "Best Dentist in RR Nagar",
+      "score": 63.2,
+      "published": true
+    },
+    {
+      "slug": "best-dental-implants-rr-nagar",
+      "title": "Best Dental Implants in RR Nagar",
+      "score": 63.2,
+      "published": true
+    },
+    {
+      "slug": "best-invisalign-rr-nagar",
+      "title": "Best Invisalign in RR Nagar",
+      "score": 63.2,
+      "published": true
+    }
+  ],
+  "weakestCtrPages": [
+    {
+      "slug": "dental-implants-cost-rr-nagar",
+      "title": "Cost of Dental Implants in RR Nagar",
+      "ctr": 1.7,
+      "position": 18
+    },
+    {
+      "slug": "invisalign-near-me-indiranagar",
+      "title": "Invisalign Near Me in Indiranagar",
+      "ctr": 2.9,
+      "position": 9
+    },
+    {
+      "slug": "best-dentist-indiranagar",
+      "title": "Best Dentist in Indiranagar",
+      "ctr": 3.8,
+      "position": 7
+    }
+  ]
+}

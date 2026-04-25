@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "indiranagar",
+    "name": "Indiranagar",
+    "city": "Bangalore",
+    "area": "New Tippasandra, Indiranagar",
+    "pin": "560075",
+    "phone": "08123-122155"
+  },
+  {
+    "slug": "rr-nagar",
+    "name": "RR Nagar",
+    "city": "Bangalore",
+    "area": "BEML Layout, Rajarajeshwari Nagar",
+    "pin": "560098",
+    "phone": "08123-322155"
+  },
+  {
+    "slug": "mg-road",
+    "name": "MG Road",
+    "city": "Bangalore",
+    "area": "Ashok Nagar, MG Road",
+    "pin": "560001",
+    "phone": "08123-222155"
+  }
+]

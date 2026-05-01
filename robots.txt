@@ -1,3 +1,10 @@
 User-agent: *
 Allow: /
-Sitemap: https://kamakshidental.com/sitemap.xml
+
+Sitemap: https://kamakshidental.in/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

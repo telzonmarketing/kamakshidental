@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kamakshi Dental | Best Dental Clinic in Bangalore | Single Visit Dentistry | Indiranagar | RR Nagar | MG Road</title>
+<meta name="description" content="Kamakshi Dental — Bengaluru's #1 single-visit dental clinic. Dental implants, Invisalign, root canal, veneers at Indiranagar, RR Nagar & MG Road. 4.9 Google. Book in 30 mins!">
+<meta name="keywords" content="dental clinic indiranagar bangalore, dental clinic rr nagar bangalore, dental clinic mg road bangalore, best dental clinic bangalore, dental implants bangalore, invisalign bangalore, root canal treatment bangalore, single visit dentistry bangalore, porcelain veneers bangalore, teeth whitening bangalore, dentist near me bangalore, best dentist indiranagar, dental clinic new tippasandra, dental clinic beml layout, dental implants indiranagar, invisalign indiranagar, root canal indiranagar">
+<meta property="og:title" content="Kamakshi Dental | Best Dental Clinic in Bangalore">
+<meta property="og:description" content="Single-visit dentistry across 3 Bengaluru clinics. 4.9 Google Rating. TOI Top Clinic 2021.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kamakshidental.in">
+<link rel="canonical" href="https://kamakshidental.in">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+window.KAMAKSHI_TRACKING_CONTEXT = {
+  pageSlug: 'home',
+  pageTitle: 'Kamakshi Dental Home',
+  location: 'Bangalore',
+  service: 'Homepage'
+};
+</script>
+<script src="analytics-config.js"></script>
+<script defer src="analytics.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+--navy:#264969;
+--navy2:#071929;
+--teal:#0b7a6a;
+--teal2:#0d9e8a;
+--lime:#add253;
+--lime2:#b8e032;
+--white:#fff;
+--offwhite:#f5f7f2;
+--gray:#eef0eb;
+--text:#333333;
+--muted:#5a6a7a;
+--border:#dde3dd;
+--gold:#e8b84b;
+}
+html{scroll-behavior:smooth;}
+body{font-family:'Poppins',sans-serif;color:var(--text);background:var(--white);overflow-x:hidden;}
+a{text-decoration:none;}
+img{max-width:100%;}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:4px;}
+::-webkit-scrollbar-track{background:var(--navy);}
+::-webkit-scrollbar-thumb{background:var(--teal);}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;transition:all 0.3s;}
+nav.scrolled{background:rgba(38,73,105,0.97);backdrop-filter:blur(20px);}
+.nav-inner{max-width:1300px;margin:0 auto;padding:0 5%;display:flex;align-items:center;justify-content:space-between;height:72px;}
+.logo-wrap{display:flex;align-items:center;min-width:0;}
+.logo-wrap img{display:block;width:100%;height:auto;max-width:280px;}
+.nav-menu{display:flex;align-items:center;gap:8px;}
+.nav-menu a{font-size:13px;color:rgba(255,255,255,0.7);padding:8px 14px;border-radius:8px;transition:all 0.2s;font-weight:400;}
+.nav-menu a:hover{color:white;background:rgba(255,255,255,0.08);}
+.nav-book{background:var(--lime);color:var(--navy)!important;font-weight:600!important;border-radius:50px!important;padding:10px 22px!important;}
+.nav-book:hover{background:var(--lime2);transform:translateY(-1px);}
+
+/* HERO */
+.hero{min-height:100vh;background:var(--navy);display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden;padding:100px 5% 60px;}
+.hero-bg-circle1{position:absolute;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(11,122,106,0.15) 0%,transparent 70%);top:-200px;right:-100px;pointer-events:none;}
+.hero-bg-circle2{position:absolute;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(212,245,60,0.06) 0%,transparent 70%);bottom:-100px;left:10%;pointer-events:none;}
+.hero-grid{max-width:1300px;margin:0 auto;width:100%;display:grid;grid-template-columns:1.1fr 0.9fr;gap:80px;align-items:center;}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:10px;margin-bottom:28px;}
+.eyebrow-dot{width:8px;height:8px;background:var(--lime);border-radius:50%;animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.6;transform:scale(1.3);}}
+.eyebrow-text{font-size:12px;color:var(--lime);font-weight:600;letter-spacing:0.15em;text-transform:uppercase;}
+.hero h1{font-family:'Poppins',sans-serif;font-size:58px;font-weight:800;color:white;line-height:1.1;margin-bottom:24px;}
+.hero h1 .accent{color:var(--lime);}
+.hero h1 .teal{color:var(--teal2);}
+.hero-sub{font-size:17px;color:rgba(255,255,255,0.6);line-height:1.7;margin-bottom:40px;max-width:520px;}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:56px;}
+.btn-lime{background:var(--lime);color:var(--navy);padding:16px 32px;border-radius:50px;font-weight:600;font-size:15px;transition:all 0.25s;display:inline-flex;align-items:center;gap:8px;}
+.btn-lime:hover{background:var(--lime2);transform:translateY(-2px);box-shadow:0 8px 24px rgba(173,210,83,0.3);}
+.btn-ghost{border:1px solid rgba(255,255,255,0.2);color:white;padding:16px 32px;border-radius:50px;font-weight:400;font-size:15px;transition:all 0.25s;display:inline-flex;align-items:center;gap:8px;}
+.btn-ghost:hover{border-color:rgba(255,255,255,0.5);background:rgba(255,255,255,0.05);}
+.hero-trust{display:flex;gap:40px;}
+.trust-item{text-align:center;}
+.trust-num{font-family:'Poppins',sans-serif;font-size:36px;font-weight:800;color:var(--lime);}
+.trust-label{font-size:12px;color:rgba(255,255,255,0.4);margin-top:2px;}
+.hero-right{position:relative;}
+.hero-card-main{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:28px;backdrop-filter:blur(20px);}
+.hc-label{font-size:11px;color:var(--teal2);font-weight:600;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:20px;display:flex;align-items:center;gap:8px;}
+.hc-label::before{content:'';display:block;width:24px;height:1px;background:var(--teal2);}
+.loc-row{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,0.06);cursor:pointer;transition:all 0.2s;}
+.loc-row:last-child{border-bottom:none;}
+.loc-row:hover{padding-left:4px;}
+.loc-row:hover .loc-row-name{color:var(--lime);}
+.loc-num{font-family:'Poppins',sans-serif;font-size:28px;font-weight:800;color:rgba(255,255,255,0.06);line-height:1;flex-shrink:0;width:40px;}
+.loc-row-info{flex:1;}
+.loc-row-name{font-family:'Poppins',sans-serif;font-size:16px;font-weight:700;color:white;margin-bottom:4px;transition:color 0.2s;}
+.loc-row-addr{font-size:12px;color:rgba(255,255,255,0.4);line-height:1.5;margin-bottom:4px;}
+.loc-row-phone{font-size:13px;color:var(--teal2);font-weight:500;}
+.hero-rating-badge{background:var(--lime);border-radius:14px;padding:14px 18px;margin-top:16px;display:flex;align-items:center;gap:14px;}
+.rating-stars{font-size:18px;color:var(--navy);letter-spacing:2px;}
+.rating-text{font-size:13px;color:var(--navy);font-weight:600;}
+.rating-sub{font-size:11px;color:rgba(38,73,105,0.6);font-weight:400;}
+
+/* MARQUEE */
+.marquee-wrap{background:var(--teal);padding:14px 0;overflow:hidden;}
+.marquee-inner{display:flex;gap:0;white-space:nowrap;animation:marquee 25s linear infinite;}
+@keyframes marquee{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
+.marquee-item{font-family:'Poppins',sans-serif;font-size:13px;font-weight:700;color:white;padding:0 40px;letter-spacing:0.05em;display:flex;align-items:center;gap:12px;}
+.marquee-item::after{content:'';color:rgba(255,255,255,0.4);font-size:10px;}
+
+/* LOCATION SECTIONS — FULL SEO PAGES */
+.loc-section{padding:100px 5%;position:relative;}
+.loc-section:nth-child(odd){background:var(--offwhite);}
+.loc-section:nth-child(even){background:var(--white);}
+.loc-section-inner{max-width:1300px;margin:0 auto;}
+.loc-header{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;margin-bottom:64px;}
+.loc-number{font-family:'Poppins',sans-serif;font-size:120px;font-weight:800;color:rgba(0,0,0,0.04);line-height:1;margin-bottom:-20px;}
+.loc-tag{font-size:11px;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.loc-tag::before{content:'';display:block;width:24px;height:1px;background:var(--teal);}
+.loc-h2{font-family:'Poppins',sans-serif;font-size:42px;font-weight:800;color:var(--navy);line-height:1.15;margin-bottom:16px;}
+.loc-h2 span{color:var(--teal);}
+.loc-desc{font-size:15px;color:var(--muted);line-height:1.8;margin-bottom:24px;}
+.loc-address-box{background:var(--navy);border-radius:16px;padding:24px;}
+.lab-row{display:flex;gap:12px;margin-bottom:12px;align-items:flex-start;}
+.lab-row:last-child{margin-bottom:0;}
+.lab-icon{width:6px;height:6px;background:var(--teal2);border-radius:50%;flex-shrink:0;margin-top:7px;}
+.lab-text{font-size:13px;color:rgba(255,255,255,0.7);line-height:1.5;}
+.lab-text strong{color:white;display:block;margin-bottom:1px;}
+.loc-services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:48px;}
+.loc-svc{background:white;border:1px solid var(--border);border-radius:14px;padding:20px;transition:all 0.25s;}
+.loc-svc:hover{border-color:var(--teal);box-shadow:0 6px 20px rgba(11,122,106,0.1);transform:translateY(-2px);}
+.loc-svc-icon{font-size:24px;margin-bottom:10px;}
+.loc-svc-name{font-family:'Poppins',sans-serif;font-size:15px;font-weight:700;color:var(--navy);margin-bottom:6px;}
+.loc-svc-desc{font-size:12px;color:var(--muted);line-height:1.6;}
+.loc-svc-kw{font-size:11px;color:var(--teal);font-weight:600;margin-top:8px;}
+.loc-faq{margin-top:48px;}
+.loc-faq h3{font-family:'Poppins',sans-serif;font-size:24px;font-weight:700;color:var(--navy);margin-bottom:24px;}
+.faq-item{border:1px solid var(--border);border-radius:12px;margin-bottom:10px;overflow:hidden;transition:all 0.2s;}
+.faq-item.open{border-color:var(--teal);}
+.faq-q{padding:18px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;gap:16px;}
+.faq-q-text{font-size:15px;font-weight:500;color:var(--navy);}
+.faq-icon{width:28px;height:28px;border-radius:50%;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:16px;color:var(--teal);flex-shrink:0;transition:all 0.2s;}
+.faq-item.open .faq-icon{background:var(--teal);color:white;border-color:var(--teal);}
+.faq-a{padding:0 20px;max-height:0;overflow:hidden;transition:all 0.3s;font-size:14px;color:var(--muted);line-height:1.7;}
+.faq-item.open .faq-a{padding:0 20px 18px;max-height:300px;}
+.loc-cta-strip{background:var(--navy);border-radius:20px;padding:32px;display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:48px;flex-wrap:wrap;}
+.loc-cta-text{font-family:'Poppins',sans-serif;font-size:22px;font-weight:700;color:white;}
+.loc-cta-sub{font-size:14px;color:rgba(255,255,255,0.5);margin-top:4px;}
+.btn-lime-sm{background:var(--lime);color:var(--navy);padding:14px 28px;border-radius:50px;font-weight:600;font-size:14px;white-space:nowrap;transition:all 0.2s;display:inline-block;}
+.btn-lime-sm:hover{background:var(--lime2);}
+
+/* SERVICES OVERVIEW */
+.services-section{background:var(--navy);padding:100px 5%;}
+.services-inner{max-width:1300px;margin:0 auto;}
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:64px;background:rgba(255,255,255,0.04);border-radius:20px;overflow:hidden;}
+.svc-cell{padding:32px 24px;border:1px solid rgba(255,255,255,0.06);transition:all 0.3s;cursor:pointer;background:rgba(255,255,255,0.02);}
+.svc-cell:hover{background:rgba(13,158,138,0.15);border-color:rgba(13,158,138,0.3);}
+.svc-cell-icon{font-size:32px;margin-bottom:16px;}
+.svc-cell-name{font-family:'Poppins',sans-serif;font-size:16px;font-weight:700;color:white;margin-bottom:8px;}
+.svc-cell-desc{font-size:13px;color:rgba(255,255,255,0.4);line-height:1.6;margin-bottom:12px;}
+.svc-cell-locs{font-size:11px;color:var(--teal2);font-weight:600;}
+.svc-cell-price{font-size:12px;color:rgba(255,255,255,0.3);margin-top:6px;}
+
+/* KEYWORDS CLOUD — hidden for humans, visible to Google */
+.seo-keywords{font-size:1px;color:transparent;height:1px;overflow:hidden;position:absolute;}
+
+/* WHY */
+.why-section{padding:100px 5%;background:var(--gray);}
+.why-inner{max-width:1300px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
+.why-list{margin-top:40px;display:flex;flex-direction:column;gap:0;}
+.why-row{display:flex;gap:20px;padding:24px 0;border-bottom:1px solid var(--border);align-items:flex-start;}
+.why-row:last-child{border-bottom:none;}
+.why-icon-box{width:48px;height:48px;background:var(--navy);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;}
+.why-row-title{font-family:'Poppins',sans-serif;font-size:16px;font-weight:700;color:var(--navy);margin-bottom:4px;}
+.why-row-desc{font-size:14px;color:var(--muted);line-height:1.6;}
+.awards-panel{background:var(--navy);border-radius:24px;padding:40px;overflow:hidden;position:relative;}
+.awards-panel::before{content:'';position:absolute;top:-60px;right:-60px;width:200px;height:200px;border-radius:50%;background:rgba(212,245,60,0.06);}
+.award-row{display:flex;gap:18px;align-items:center;padding:20px 0;border-bottom:1px solid rgba(255,255,255,0.07);}
+.award-row:last-child{border-bottom:none;}
+.award-val{font-family:'Poppins',sans-serif;font-size:42px;font-weight:800;color:var(--lime);width:72px;flex-shrink:0;line-height:1;}
+.award-title{font-size:15px;font-weight:500;color:white;margin-bottom:3px;}
+.award-sub{font-size:13px;color:rgba(255,255,255,0.35);}
+
+/* TECH */
+.tech-section{padding:100px 5%;background:var(--white);}
+.tech-inner{max-width:1300px;margin:0 auto;}
+.tech-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:64px;}
+.tech-card{border:1px solid var(--border);border-radius:20px;padding:32px;transition:all 0.3s;}
+.tech-card:hover{border-color:var(--teal);box-shadow:0 8px 32px rgba(11,122,106,0.08);}
+.tech-icon{font-size:36px;margin-bottom:16px;}
+.tech-name{font-family:'Poppins',sans-serif;font-size:18px;font-weight:700;color:var(--navy);margin-bottom:8px;}
+.tech-desc{font-size:14px;color:var(--muted);line-height:1.7;}
+.tech-badge{display:inline-block;font-size:11px;font-weight:600;color:var(--teal);background:rgba(11,122,106,0.08);padding:4px 10px;border-radius:50px;margin-top:12px;}
+
+/* REVIEWS */
+.reviews-section{padding:100px 5%;background:var(--navy);}
+.reviews-inner{max-width:1300px;margin:0 auto;}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:64px;}
+.review-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);border-radius:20px;padding:28px;transition:all 0.3s;}
+.review-card:hover{background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.12);}
+.review-stars{color:var(--gold);font-size:16px;letter-spacing:3px;margin-bottom:14px;}
+.review-text{font-size:14px;color:rgba(255,255,255,0.65);line-height:1.8;margin-bottom:20px;font-style:italic;}
+.review-author{font-family:'Poppins',sans-serif;font-size:15px;font-weight:700;color:white;}
+.review-loc{font-size:12px;color:var(--teal2);margin-top:2px;}
+.review-treatment{font-size:11px;color:rgba(255,255,255,0.3);margin-top:4px;}
+
+/* APPOINTMENT */
+.appt-section{padding:100px 5%;background:var(--offwhite);}
+.appt-inner{max-width:1300px;margin:0 auto;display:grid;grid-template-columns:1fr 1.2fr;gap:80px;align-items:start;}
+.appt-left-tag{font-size:11px;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.appt-left-tag::before{content:'';display:block;width:24px;height:1px;background:var(--teal);}
+.appt-h2{font-family:'Poppins',sans-serif;font-size:44px;font-weight:800;color:var(--navy);line-height:1.1;margin-bottom:20px;}
+.appt-desc{font-size:15px;color:var(--muted);line-height:1.7;margin-bottom:36px;}
+.appt-contact-list{display:flex;flex-direction:column;gap:16px;}
+.appt-contact{display:flex;gap:14px;align-items:flex-start;}
+.appt-contact-icon{width:8px;height:8px;background:var(--teal);border-radius:2px;flex-shrink:0;margin-top:6px;}
+.appt-contact-name{font-family:'Poppins',sans-serif;font-size:14px;font-weight:700;color:var(--navy);}
+.appt-contact-val{font-size:13px;color:var(--muted);margin-top:2px;}
+.appt-contact-phone{font-size:14px;color:var(--teal);font-weight:600;margin-top:2px;}
+.form-card{background:white;border-radius:24px;padding:40px;border:1px solid var(--border);box-shadow:0 4px 40px rgba(0,0,0,0.05);}
+.form-h3{font-family:'Poppins',sans-serif;font-size:22px;font-weight:700;color:var(--navy);margin-bottom:28px;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.form-group{margin-bottom:16px;}
+label{font-size:12px;font-weight:600;color:var(--muted);letter-spacing:0.05em;text-transform:uppercase;display:block;margin-bottom:6px;}
+input,select,textarea{width:100%;padding:13px 16px;border:1.5px solid var(--border);border-radius:10px;font-size:14px;font-family:'Poppins',sans-serif;color:var(--text);background:var(--offwhite);transition:all 0.2s;outline:none;}
+input:focus,select:focus,textarea:focus{border-color:var(--teal);background:white;}
+textarea{resize:vertical;min-height:80px;}
+.submit-btn{width:100%;background:var(--navy);color:white;border:none;padding:16px;border-radius:50px;font-size:15px;font-weight:600;cursor:pointer;font-family:'Poppins',sans-serif;transition:all 0.25s;margin-top:8px;letter-spacing:0.02em;}
+.submit-btn:hover{background:var(--teal);transform:translateY(-2px);}
+.form-note{font-size:11px;color:var(--muted);text-align:center;margin-top:10px;}
+
+/* FOOTER */
+footer{background:#1a2e40;padding:80px 5% 32px;}
+.footer-inner{max-width:1300px;margin:0 auto;}
+.footer-top{display:grid;grid-template-columns:2.5fr 1fr 1fr 1fr;gap:60px;padding-bottom:60px;border-bottom:1px solid rgba(255,255,255,0.06);}
+.footer-brand-desc{font-size:14px;color:rgba(255,255,255,0.35);line-height:1.8;margin-top:16px;max-width:280px;}
+.footer-col h4{font-family:'Poppins',sans-serif;font-size:12px;font-weight:700;color:rgba(255,255,255,0.5);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:20px;}
+.footer-col a{display:block;font-size:14px;color:rgba(255,255,255,0.35);margin-bottom:10px;transition:color 0.2s;}
+.footer-col a:hover{color:var(--lime);}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:32px;flex-wrap:wrap;gap:16px;}
+.footer-copy{font-size:13px;color:rgba(255,255,255,0.2);}
+.footer-credit{font-size:13px;color:rgba(255,255,255,0.32);}
+.footer-credit a{color:var(--lime);font-weight:600;}
+.footer-credit a:hover{color:white;}
+.footer-seo{font-size:11px;color:rgba(255,255,255,0.1);}
+
+/* SECTION HEADERS */
+.sec-eyebrow{font-size:11px;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.sec-eyebrow::before{content:'';display:block;width:24px;height:1px;background:var(--teal);}
+.sec-h2{font-family:'Poppins',sans-serif;font-size:44px;font-weight:800;color:var(--navy);line-height:1.15;margin-bottom:16px;}
+.sec-h2.white{color:white;}
+.sec-desc{font-size:16px;color:var(--muted);line-height:1.7;max-width:580px;}
+.sec-desc.white{color:rgba(255,255,255,0.5);}
+
+/* MOBILE */
+@media(max-width:900px){
+  .hero-grid,.loc-header,.why-inner,.appt-inner,.footer-top{grid-template-columns:1fr;}
+  .hero h1{font-size:38px;}
+  .sec-h2,.loc-h2{font-size:30px;}
+  .svc-grid{grid-template-columns:1fr 1fr;}
+  .loc-services-grid,.tech-grid,.reviews-grid{grid-template-columns:1fr 1fr;}
+  .nav-menu a:not(.nav-book){display:none;}
+  .hero-trust{gap:24px;}
+  .trust-num{font-size:28px;}
+  .footer-top{grid-template-columns:1fr 1fr;}
+  .form-row{grid-template-columns:1fr;}
+}
+@media(max-width:600px){
+  .svc-grid,.loc-services-grid,.tech-grid,.reviews-grid{grid-template-columns:1fr;}
+  .hero h1{font-size:30px;}
+  .loc-number{font-size:80px;}
+}
+</style>
+</head>
+<body>
+<h2>Our Dental Services</h2>
+<ul>
+<li><a href="/best-dentist-bangalore">Best Dentist Bangalore</a></li>
+<li><a href="/best-dentist-mg-road">Best Dentist MG Road</a></li>
+<li><a href="/dental-clinic-bangalore">Dental Clinic Bangalore</a></li>
+<li><a href="/dental-implants-bangalore">Dental Implants Bangalore</a></li>
+</ul>
+
+<!-- HIDDEN SEO KEYWORDS -->
+<div class="seo-keywords" aria-hidden="true">
+dental clinic indiranagar bangalore best dentist indiranagar dental implants indiranagar invisalign indiranagar root canal indiranagar porcelain veneers indiranagar teeth whitening indiranagar single visit dentistry indiranagar dental clinic new tippasandra dentist near 100 feet road indiranagar dental clinic hal 3rd stage dentist near indiranagar metro station dental clinic near domlur dental clinic near koramangala dental clinic near hal airport road best dental clinic east bangalore dental implants new tippasandra invisalign new tippasandra root canal new tippasandra dental clinic rr nagar dental clinic rajarajeshwari nagar dental implants rr nagar invisalign rr nagar root canal rr nagar dental clinic beml layout dentist near gopalan arcade dental clinic near nagarbhavi dental clinic near kengeri dental clinic near uttarahalli single visit dentistry rr nagar best dental clinic west bangalore dental implants beml layout invisalign beml layout root canal beml layout teeth whitening rr nagar porcelain veneers rr nagar dental clinic mg road bangalore dental implants mg road invisalign mg road dental clinic ashok nagar dental clinic shanthala nagar dentist near brigade road dentist near cubbon park dentist near mg road metro dental clinic near commercial street single visit dentistry mg road best dental clinic central bangalore dental implants ashok nagar invisalign ashok nagar root canal mg road teeth whitening mg road porcelain veneers mg road best dental clinic bangalore dental implants bangalore invisalign bangalore root canal treatment bangalore porcelain veneers bangalore teeth whitening bangalore single visit dentistry bangalore cerec dentistry bangalore waterlase laser dentistry bangalore same day crowns bangalore dental braces bangalore clear aligners bangalore smile correction bangalore preventive dental care bangalore dental implant cost bangalore invisalign cost bangalore root canal cost bangalore dr akarsh bilimagga bangalore kamakshi dental bangalore
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="logo-wrap">
+      <img src="kamakshi-dental-logo.png" alt="Kamakshi Dental - Single Visit Dentistry">
+    </div>
+    <div class="nav-menu">
+      <a href="#indiranagar">Indiranagar</a>
+      <a href="#rrnagar">RR Nagar</a>
+      <a href="#mgroad">MG Road</a>
+      <a href="#services-section">Services</a>
+      <a href="#faq-main">FAQ</a>
+      <a href="https://wa.me/919740583538?text=Hello%20Kamakshi%20Dental%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="nav-book">Book on WhatsApp</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg-circle1"></div>
+  <div class="hero-bg-circle2"></div>
+  <div class="hero-grid">
+    <div>
+      <div class="hero-eyebrow">
+        <div class="eyebrow-dot"></div>
+        <span class="eyebrow-text">Bengaluru's #1 Dental Clinic · TOI Top Clinic 2021</span>
+      </div>
+      <h1>
+        <span class="accent">Single Visit</span><br>
+        Dentistry in<br>
+        <span class="teal">Bengaluru</span>
+      </h1>
+      <p class="hero-sub">Crowns, implants, root canals, and veneers completed in one appointment using CEREC CAD/CAM technology. No repeated visits. No waiting. Available across Indiranagar, RR Nagar, and MG Road.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/919740583538?text=Hello%20Kamakshi%20Dental%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="btn-lime">Book on WhatsApp →</a>
+        <a href="#indiranagar" class="btn-ghost">Find Your Nearest Clinic</a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item"><div class="trust-num">4.9</div><div class="trust-label">Google Rating</div></div>
+        <div class="trust-item"><div class="trust-num">16+</div><div class="trust-label">Years in Bengaluru</div></div>
+        <div class="trust-item"><div class="trust-num">3</div><div class="trust-label">City Locations</div></div>
+        <div class="trust-item"><div class="trust-num">10K+</div><div class="trust-label">Patients</div></div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-card-main">
+        <div class="hc-label">Our 3 Bengaluru Locations</div>
+        <div class="loc-row" onclick="document.getElementById('indiranagar').scrollIntoView({behavior:'smooth'})">
+          <div class="loc-num">01</div>
+          <div class="loc-row-info">
+            <div class="loc-row-name">Indiranagar</div>
+            <div class="loc-row-addr">No 338, 4th Main Road, New Tippasandra, Bengaluru 560075</div>
+            <div class="loc-row-phone"> 08123-122155</div>
+          </div>
+        </div>
+        <div class="loc-row" onclick="document.getElementById('rrnagar').scrollIntoView({behavior:'smooth'})">
+          <div class="loc-num">02</div>
+          <div class="loc-row-info">
+            <div class="loc-row-name">RR Nagar</div>
+            <div class="loc-row-addr">BEML Layout, Rajarajeshwari Nagar, Bengaluru 560098</div>
+            <div class="loc-row-phone"> 08123-322155</div>
+          </div>
+        </div>
+        <div class="loc-row" onclick="document.getElementById('mgroad').scrollIntoView({behavior:'smooth'})">
+          <div class="loc-num">03</div>
+          <div class="loc-row-info">
+            <div class="loc-row-name">MG Road</div>
+            <div class="loc-row-addr">No 35, United Mansion, Ashok Nagar, Bengaluru 560001</div>
+            <div class="loc-row-phone"> 08123-222155</div>
+          </div>
+        </div>
+        <div class="hero-rating-badge">
+          <div>
+            <div class="rating-stars"></div>
+            <div class="rating-sub">500+ Google Reviews</div>
+          </div>
+          <div>
+            <div class="rating-text">4.9 / 5 Rating</div>
+            <div class="rating-sub">Highest in Bengaluru</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-inner">
+    <span class="marquee-item">Best Dental Clinic Bangalore</span>
+    <span class="marquee-item">Single Visit Dentistry Bengaluru</span>
+    <span class="marquee-item">Dental Implants Indiranagar</span>
+    <span class="marquee-item">Invisalign RR Nagar</span>
+    <span class="marquee-item">Root Canal MG Road</span>
+    <span class="marquee-item">4.9 Google Rated</span>
+    <span class="marquee-item">CEREC Same Day Crowns</span>
+    <span class="marquee-item">TOI Top Clinic 2021</span>
+    <span class="marquee-item">Best Dental Clinic Bangalore</span>
+    <span class="marquee-item">Single Visit Dentistry Bengaluru</span>
+    <span class="marquee-item">Dental Implants Indiranagar</span>
+    <span class="marquee-item">Invisalign RR Nagar</span>
+    <span class="marquee-item">Root Canal MG Road</span>
+    <span class="marquee-item">4.9 Google Rated</span>
+    <span class="marquee-item">CEREC Same Day Crowns</span>
+    <span class="marquee-item">TOI Top Clinic 2021</span>
+  </div>
+</div>
+
+<!-- ============================
+     LOCATION 1 — INDIRANAGAR
+     ============================ -->
+<section class="loc-section" id="indiranagar">
+  <div class="loc-section-inner">
+    <div class="loc-number">01</div>
+    <div class="loc-header">
+      <div>
+        <div class="loc-tag">Indiranagar · New Tippasandra</div>
+        <h2 class="loc-h2">Best Dental Clinic in<br><span>Indiranagar, Bangalore</span></h2>
+        <p class="loc-desc">Kamakshi Dental Indiranagar is located at 4th Main Road, New Tippasandra — minutes from 100 Feet Road and Indiranagar Metro Station. We serve patients from Indiranagar, New Tippasandra, HAL, Domlur, Koramangala, and surrounding East Bengaluru areas. As Bengaluru's only CEREC single-visit dentistry clinic, we complete crowns, bridges, and veneers in a single 90-minute appointment.</p>
+        <a href="#appointment" class="btn-lime-sm">Book at Indiranagar →</a>
+      </div>
+      <div class="loc-address-box">
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Full Address</strong>No 338, Ground Floor, 4th Main Road, HAL 3rd Stage, New Tippasandra, Bengaluru, Karnataka 560075</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Phone</strong>08123-122155</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Email</strong>kamakshidental344@gmail.com</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Timings</strong>Monday–Saturday · 9:00 AM – 8:00 PM</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Nearest Metro</strong>Indiranagar Metro Station — Purple Line (~10 min)</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Landmarks</strong>Near 100 Feet Road · HAL Airport Road · New Tippasandra Main Road</div></div>
+        <div style="margin-top:12px;padding:10px 0;font-size:11px;color:rgba(255,255,255,0.35);line-height:1.8;">
+          Dental Clinic in Indiranagar · Dentist near New Tippasandra · Best Dentist near 100 Feet Road · Dental Clinic near HAL · Dentist near Indiranagar Metro · Dental Clinic near Domlur · Best Dental Clinic East Bangalore
+        </div>
+        <div style="margin-top:4px;border-radius:12px;overflow:hidden;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0123655652606!2d77.64615367536224!3d12.971060414889529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1481ed527bf5%3A0xf4e45d019537f5!2sKamakshi%20Dental%20%7C%20Indiranagar%20%7C%20single%20visit%20dentistry!5e0!3m2!1sen!2sin!4v1776941799577!5m2!1sen!2sin" width="100%" height="220" style="border:0;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="loc-services-grid">
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">01</div><div class="loc-svc-name">Dental Implants in Indiranagar</div><div class="loc-svc-desc">Permanent tooth replacement by Dr. Akarsh Bilimagga, MDS Oral Implantology. 2,000+ successful implants. Free consultation available.</div><div class="loc-svc-kw">dental implants indiranagar bangalore</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">02</div><div class="loc-svc-name">Invisalign in Indiranagar</div><div class="loc-svc-desc">Certified Invisalign provider at New Tippasandra. Clear aligners for adults and teens. Free consultation available.</div><div class="loc-svc-kw">invisalign indiranagar bangalore</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">03</div><div class="loc-svc-name">Root Canal in Indiranagar</div><div class="loc-svc-desc">Painless, single-visit root canal using Waterlase laser. Completed in under 90 minutes at our Indiranagar clinic.</div><div class="loc-svc-kw">root canal treatment indiranagar</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">04</div><div class="loc-svc-name">Porcelain Veneers in Indiranagar</div><div class="loc-svc-desc">Same-day CEREC veneers designed, milled, and bonded in one visit. Natural look, stain-resistant, long-lasting.</div><div class="loc-svc-kw">porcelain veneers indiranagar</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">05</div><div class="loc-svc-name">Teeth Whitening in Indiranagar</div><div class="loc-svc-desc">Professional chairside whitening in 60 minutes. Visibly brighter smile in one session at New Tippasandra.</div><div class="loc-svc-kw">teeth whitening indiranagar bangalore</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">06</div><div class="loc-svc-name">Single Visit Crowns in Indiranagar</div><div class="loc-svc-desc">CEREC same-day crowns — design, mill, and fit in one appointment. No temporaries. No second visit.</div><div class="loc-svc-kw">single visit dentistry indiranagar</div></div>
+    </div>
+    <div class="loc-faq">
+      <h3>FAQ — Dental Clinic in Indiranagar</h3>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">Where exactly is Kamakshi Dental Indiranagar located?</span><div class="faq-icon">+</div></div><div class="faq-a">We are at No 338, Ground Floor, 4th Main Road, HAL 3rd Stage, New Tippasandra, Bengaluru 560075 — close to 100 Feet Road and approximately 10 minutes from Indiranagar Metro Station on the Purple Line.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">How is implant pricing determined at Indiranagar?</span><div class="faq-icon">+</div></div><div class="faq-a">Dental implant pricing at our Indiranagar clinic depends on the type of implant and complexity. Call 08123-122155 or book a free consultation for a personalised quote.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">Is Invisalign available in Indiranagar at Kamakshi Dental?</span><div class="faq-icon">+</div></div><div class="faq-a">Yes. Kamakshi Dental New Tippasandra is a certified Invisalign provider. Free Invisalign consultation available. Treatment typically takes 12–18 months. Call 08123-122155 to book.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">Does Kamakshi Dental Indiranagar do same-day crowns?</span><div class="faq-icon">+</div></div><div class="faq-a">Yes. Using CEREC CAD/CAM technology, we design, mill, and fit permanent crowns in a single appointment — typically 90 minutes. No temporary crown, no second visit required.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">What are the clinic timings at Indiranagar?</span><div class="faq-icon">+</div></div><div class="faq-a">Monday to Saturday, 9:00 AM to 8:00 PM. Same-day appointments often available. Call 08123-122155 or book online.</div></div>
+    </div>
+    <div class="loc-cta-strip">
+      <div><div class="loc-cta-text">Book at Indiranagar Today</div><div class="loc-cta-sub">Same-day appointments available · Response in 30 minutes</div></div>
+      <a href="https://wa.me/919740583538?text=Hello%20Kamakshi%20Dental%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="btn-lime-sm">Book on WhatsApp →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     LOCATION 2 — RR NAGAR
+     ============================ -->
+<section class="loc-section" id="rrnagar">
+  <div class="loc-section-inner">
+    <div class="loc-number">02</div>
+    <div class="loc-header">
+      <div>
+        <div class="loc-tag">Rajarajeshwari Nagar · BEML Layout</div>
+        <h2 class="loc-h2">Best Dental Clinic in<br><span>RR Nagar, Bangalore</span></h2>
+        <p class="loc-desc">Kamakshi Dental RR Nagar is located in BEML Layout, Rajarajeshwari Nagar — easily accessible from Gopalan Arcade Mall, Nagarbhavi, Kengeri, and Uttarahalli. We offer complete dental care including implants, Invisalign, root canal, and single-visit CEREC crowns for patients across West Bengaluru. Lower competition area with shorter waiting times — ideal for families.</p>
+        <a href="#appointment" class="btn-lime-sm">Book at RR Nagar →</a>
+      </div>
+      <div class="loc-address-box">
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Full Address</strong>Dr H. Srinivasaiah Rd, Remco Bhel Layout, BEML Layout, Rajarajeshwari Nagar, Bengaluru, Karnataka 560098</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Phone</strong>08123-322155</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Email</strong>kamakshidentalrr@gmail.com</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Timings</strong>Monday–Saturday · 9:00 AM – 8:00 PM</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Parking</strong>Ample free parking available at BEML Layout</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Landmarks</strong>Near Gopalan Arcade Mall · BEML Township · Nagarbhavi Circle</div></div>
+        <div style="margin-top:12px;padding:10px 0;font-size:11px;color:rgba(255,255,255,0.35);line-height:1.8;">
+          Dental Clinic in RR Nagar · Dentist in Rajarajeshwari Nagar · Best Dentist near BEML Layout · Dental Clinic near Gopalan Arcade · Dentist near Nagarbhavi · Dental Clinic near Kengeri · Best Dental Clinic West Bangalore
+        </div>
+        <div style="margin-top:4px;border-radius:12px;overflow:hidden;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8070242788867!2d77.51296988172342!3d12.92012118351209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3e551406ea0f%3A0xc27e2c0ffb44a4f7!2sKamakshi%20Dental%20RR%20Nagar%20%7C%20Single%20visit%20dentistry!5e0!3m2!1sen!2sin!4v1776941859295!5m2!1sen!2sin" width="100%" height="220" style="border:0;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="loc-services-grid">
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">07</div><div class="loc-svc-name">Dental Implants in RR Nagar</div><div class="loc-svc-desc">MDS implantology specialist on-site at BEML Layout. Permanent implants with expert care. Single-visit CEREC crown fitting.</div><div class="loc-svc-kw">dental implants rr nagar bangalore</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">08</div><div class="loc-svc-name">Invisalign in RR Nagar</div><div class="loc-svc-desc">Certified Invisalign provider at Rajarajeshwari Nagar. Clear aligners for the whole family. Free first consultation.</div><div class="loc-svc-kw">invisalign rr nagar rajarajeshwari nagar</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">09</div><div class="loc-svc-name">Root Canal in RR Nagar</div><div class="loc-svc-desc">Painless single-visit root canal using Waterlase laser at our BEML Layout clinic. No repeated appointments.</div><div class="loc-svc-kw">root canal treatment rr nagar bangalore</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">10</div><div class="loc-svc-name">Porcelain Veneers in RR Nagar</div><div class="loc-svc-desc">CEREC same-day veneers at Rajarajeshwari Nagar. Custom-crafted, natural-looking, stain-resistant finish.</div><div class="loc-svc-kw">porcelain veneers rr nagar</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">11</div><div class="loc-svc-name">Teeth Whitening in RR Nagar</div><div class="loc-svc-desc">Professional whitening at BEML Layout. Visible results in 60 minutes. Safe, effective, long-lasting.</div><div class="loc-svc-kw">teeth whitening rr nagar bangalore</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">12</div><div class="loc-svc-name">Single Visit Dentistry in RR Nagar</div><div class="loc-svc-desc">CEREC crowns and bridges at Rajarajeshwari Nagar — completed in one appointment while you wait.</div><div class="loc-svc-kw">single visit dentistry rr nagar</div></div>
+    </div>
+    <div class="loc-faq">
+      <h3>FAQ — Dental Clinic in RR Nagar</h3>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">Where is Kamakshi Dental in RR Nagar?</span><div class="faq-icon">+</div></div><div class="faq-a">We are at Dr H. Srinivasaiah Rd, Remco Bhel Layout, BEML Layout, Rajarajeshwari Nagar, Bengaluru 560098 — near Gopalan Arcade Mall. Free parking available. Call 08123-322155.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">What is the cost of dental implants in RR Nagar?</span><div class="faq-icon">+</div></div><div class="faq-a">Dental implant pricing at our RR Nagar clinic depends on your specific condition. Book a free consultation at 08123-322155 for an exact personalised quote.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">Is single-visit root canal available in RR Nagar?</span><div class="faq-icon">+</div></div><div class="faq-a">Yes. Using Waterlase laser technology, most root canal procedures at our BEML Layout clinic are completed in a single visit of under 90 minutes — no repeated appointments needed.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">Does Kamakshi Dental RR Nagar offer Invisalign?</span><div class="faq-icon">+</div></div><div class="faq-a">Yes. Our Rajarajeshwari Nagar clinic is a certified Invisalign provider. We offer clear aligners for adults and teens. Free consultation available — call 08123-322155.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">What are the clinic timings in RR Nagar?</span><div class="faq-icon">+</div></div><div class="faq-a">Monday to Saturday, 9:00 AM to 8:00 PM at our BEML Layout clinic. Call 08123-322155 for same-day appointments.</div></div>
+    </div>
+    <div class="loc-cta-strip">
+      <div><div class="loc-cta-text">Book at RR Nagar Today</div><div class="loc-cta-sub">Near Gopalan Arcade · Free parking · Same-day slots available</div></div>
+      <a href="https://wa.me/919740583538?text=Hello%20Kamakshi%20Dental%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="btn-lime-sm">Book on WhatsApp →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     LOCATION 3 — MG ROAD
+     ============================ -->
+<section class="loc-section" id="mgroad">
+  <div class="loc-section-inner">
+    <div class="loc-number">03</div>
+    <div class="loc-header">
+      <div>
+        <div class="loc-tag">MG Road · Ashok Nagar · Shanthala Nagar</div>
+        <h2 class="loc-h2">Best Dental Clinic on<br><span>MG Road, Bangalore</span></h2>
+        <p class="loc-desc">Kamakshi Dental MG Road is located at United Mansion, Shanthala Nagar, Ashok Nagar — in the heart of central Bengaluru. Walking distance from Brigade Road, Cubbon Park Metro, and MG Road Metro Station. Perfect for working professionals in the CBD looking for early morning or post-work dental appointments. Open until 8 PM Monday–Saturday.</p>
+        <a href="#appointment" class="btn-lime-sm">Book at MG Road →</a>
+      </div>
+      <div class="loc-address-box">
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Full Address</strong>No 35, United Mansion, Mahatma Gandhi Road, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Phone</strong>08123-222155</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Email</strong>mgroadkamakshi@gmail.com</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Timings</strong>Monday–Saturday · 9:00 AM – 8:00 PM</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Nearest Metro</strong>MG Road Metro + Trinity Metro · Both within 7 min walk</div></div>
+        <div class="lab-row"><div class="lab-icon"></div><div class="lab-text"><strong>Landmarks</strong>Near Brigade Road · Cubbon Park · Indiranagar · Commercial Street</div></div>
+        <div style="margin-top:12px;padding:10px 0;font-size:11px;color:rgba(255,255,255,0.35);line-height:1.8;">
+          Dental Clinic on MG Road · Dentist near Brigade Road · Best Dentist near Ashok Nagar · Dental Clinic near Shanthala Nagar · Dentist near Cubbon Park · Dental Clinic near Commercial Street · Best Dental Clinic Central Bangalore
+        </div>
+        <div style="margin-top:4px;border-radius:12px;overflow:hidden;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.957844570194!2d77.6062410753623!3d12.974548114813052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16874362879d%3A0x713379843449ef10!2sKamakshi%20Dental%20MG%20Road%20%7C%20Single%20Visit%20Dentistry!5e0!3m2!1sen!2sin!4v1776942020445!5m2!1sen!2sin" width="100%" height="220" style="border:0;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="loc-services-grid">
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">13</div><div class="loc-svc-name">Dental Implants on MG Road</div><div class="loc-svc-desc">Permanent implants at Ashok Nagar. Ideal for CBD professionals. Led by Dr. Akarsh Bilimagga, MDS Implantology.</div><div class="loc-svc-kw">dental implants mg road bangalore</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">14</div><div class="loc-svc-name">Invisalign near MG Road</div><div class="loc-svc-desc">Certified Invisalign provider at Shanthala Nagar. Clear aligners for professionals — discreet and removable. Free consultation.</div><div class="loc-svc-kw">invisalign mg road bangalore</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">15</div><div class="loc-svc-name">Root Canal near MG Road</div><div class="loc-svc-desc">Painless, single-visit root canal at Ashok Nagar using Waterlase laser. Ideal for lunchtime or after-work procedures.</div><div class="loc-svc-kw">root canal treatment mg road bangalore</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">16</div><div class="loc-svc-name">Porcelain Veneers near MG Road</div><div class="loc-svc-desc">Same-day CEREC veneers at Shanthala Nagar. Custom-crafted for each patient. Natural appearance guaranteed.</div><div class="loc-svc-kw">porcelain veneers mg road bangalore</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">17</div><div class="loc-svc-name">Teeth Whitening near MG Road</div><div class="loc-svc-desc">Professional whitening at Ashok Nagar. Bright smile in 60 minutes — ideal for professionals and special occasions.</div><div class="loc-svc-kw">teeth whitening mg road bangalore</div></div>
+      <div class="loc-svc"><div class="loc-svc-icon" style="width:32px;height:32px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:white;margin-bottom:10px;">18</div><div class="loc-svc-name">Single Visit Dentistry on MG Road</div><div class="loc-svc-desc">CEREC crowns and bridges at United Mansion — designed and fitted in one appointment. Fits your busy schedule.</div><div class="loc-svc-kw">single visit dentistry mg road</div></div>
+    </div>
+    <div class="loc-faq">
+      <h3>FAQ — Dental Clinic on MG Road</h3>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">Where exactly is Kamakshi Dental on MG Road?</span><div class="faq-icon">+</div></div><div class="faq-a">No 35, United Mansion, Mahatma Gandhi Road, Shanthala Nagar, Ashok Nagar, Bengaluru 560001 — near Brigade Road junction. Approximately 5–7 minutes walk from MG Road Metro Station.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">Can I visit Kamakshi Dental MG Road after office hours?</span><div class="faq-icon">+</div></div><div class="faq-a">Yes. We are open until 8:00 PM Monday–Saturday, making our MG Road clinic ideal for working professionals in Brigade Road, Koramangala, and central Bengaluru areas.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">What is the cost of Invisalign near MG Road?</span><div class="faq-icon">+</div></div><div class="faq-a">Invisalign pricing at our MG Road clinic depends on case complexity and number of aligners. Book a free consultation at 08123-222155 for a personalised quote.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">Does Kamakshi Dental MG Road do same-day crowns?</span><div class="faq-icon">+</div></div><div class="faq-a">Yes. Using CEREC CAD/CAM technology, permanent crowns are designed and fitted in one appointment at our Ashok Nagar clinic — perfect for professionals who can't afford multiple visits.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">How do I reach Kamakshi Dental MG Road by Metro?</span><div class="faq-icon">+</div></div><div class="faq-a">The clinic is approximately 5–7 minutes walk from both MG Road Metro Station and Trinity Metro Station on the Purple Line. It is also accessible from Cubbon Park Metro on the Green Line.</div></div>
+    </div>
+    <div class="loc-cta-strip">
+      <div><div class="loc-cta-text">Book at MG Road Today</div><div class="loc-cta-sub">Open till 8 PM · Walk from Metro · CBD professionals welcome</div></div>
+      <a href="https://wa.me/919740583538?text=Hello%20Kamakshi%20Dental%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="btn-lime-sm">Book on WhatsApp →</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES OVERVIEW -->
+<section class="services-section" id="services-section">
+  <div class="services-inner">
+    <div class="sec-eyebrow" style="color:var(--teal2)">All Dental Services · All 3 Locations</div>
+    <h2 class="sec-h2 white">Complete Dental Care<br>Across Bengaluru</h2>
+    <p class="sec-desc white">Every service available at Indiranagar, RR Nagar, and MG Road — same technology, same specialist care.</p>
+    <div class="svc-grid">
+      <div class="svc-cell"><div class="svc-cell-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--lime);margin-bottom:16px;">01</div><div class="svc-cell-name">Dental Implants</div><div class="svc-cell-desc">Permanent tooth replacement. MDS Implantology specialist. 2,000+ procedures completed. Free consultation.</div><div class="svc-cell-locs">Indiranagar · RR Nagar · MG Road</div></div>
+      <div class="svc-cell"><div class="svc-cell-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--lime);margin-bottom:16px;">02</div><div class="svc-cell-name">Invisalign</div><div class="svc-cell-desc">Certified provider. Clear aligners for adults and teens. Free consultation. Treatment timeline personalised to your case.</div><div class="svc-cell-locs">Indiranagar · RR Nagar · MG Road</div></div>
+      <div class="svc-cell"><div class="svc-cell-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--lime);margin-bottom:16px;">03</div><div class="svc-cell-name">Root Canal</div><div class="svc-cell-desc">Painless, single-visit using Waterlase laser. Under 90 minutes. No repeated appointments.</div><div class="svc-cell-locs">Indiranagar · RR Nagar · MG Road</div></div>
+      <div class="svc-cell"><div class="svc-cell-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--lime);margin-bottom:16px;">04</div><div class="svc-cell-name">Porcelain Veneers</div><div class="svc-cell-desc">CEREC same-day veneers. Designed, milled, and bonded in one visit. Stain-resistant finish.</div><div class="svc-cell-locs">Indiranagar · RR Nagar · MG Road</div></div>
+      <div class="svc-cell"><div class="svc-cell-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--lime);margin-bottom:16px;">05</div><div class="svc-cell-name">Teeth Whitening</div><div class="svc-cell-desc">Professional chairside whitening. Visible results in 60 minutes. Safe and long-lasting.</div><div class="svc-cell-locs">Indiranagar · RR Nagar · MG Road</div></div>
+      <div class="svc-cell"><div class="svc-cell-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--lime);margin-bottom:16px;">06</div><div class="svc-cell-name">Same-Day Crowns</div><div class="svc-cell-desc">CEREC CAD/CAM crowns in 90 minutes. No temporary, no second visit. Perfect fit guaranteed.</div><div class="svc-cell-locs">Indiranagar · RR Nagar · MG Road</div></div>
+      <div class="svc-cell"><div class="svc-cell-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--lime);margin-bottom:16px;">07</div><div class="svc-cell-name">Dental Bridges</div><div class="svc-cell-desc">Same-day CEREC bridges replacing missing teeth. Seamless blend with natural smile.</div><div class="svc-cell-locs">Indiranagar · RR Nagar · MG Road</div></div>
+      <div class="svc-cell"><div class="svc-cell-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--lime);margin-bottom:16px;">08</div><div class="svc-cell-name">Braces</div><div class="svc-cell-desc">Metal and ceramic braces for children and adults. Specialist orthodontist at all branches.</div><div class="svc-cell-locs">Indiranagar · RR Nagar · MG Road</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why-section">
+  <div class="why-inner">
+    <div>
+      <div class="sec-eyebrow">Why Choose Kamakshi Dental</div>
+      <h2 class="sec-h2">Bengaluru's Only True<br>Single Visit Clinic</h2>
+      <p class="sec-desc">Led by Dr. Akarsh Bilimagga — MDS Periodontics & Oral Implantology specialist with 8+ years experience and 10,000+ procedures completed across 3 Bengaluru clinics.</p>
+      <ul class="why-list">
+        <li class="why-row"><div class="why-icon-box"><div style="width:12px;height:3px;background:var(--lime);border-radius:2px;"></div></div><div><div class="why-row-title">CEREC CAD/CAM Technology</div><div class="why-row-desc">Design, mill, and fit crowns, bridges, and veneers in one 90-minute appointment — Bengaluru's only clinic with this capability.</div></div></li>
+        <li class="why-row"><div class="why-icon-box"><div style="width:12px;height:3px;background:var(--lime);border-radius:2px;"></div></div><div><div class="why-row-title">Waterlase Laser Dentistry</div><div class="why-row-desc">Painless root canals and soft tissue procedures. Faster healing, minimal discomfort, no drill anxiety.</div></div></li>
+        <li class="why-row"><div class="why-icon-box"><div style="width:12px;height:3px;background:var(--lime);border-radius:2px;"></div></div><div><div class="why-row-title">International Patient Referrals</div><div class="why-row-desc">Patients from Europe, UAE, and the US visit Kamakshi Dental specifically for implants and Invisalign treatment.</div></div></li>
+        <li class="why-row"><div class="why-icon-box"><div style="width:12px;height:3px;background:var(--lime);border-radius:2px;"></div></div><div><div class="why-row-title">Specialist at Every Branch</div><div class="why-row-desc">Each of our 3 clinics has specialists in implantology, orthodontics, cosmetic dentistry, and preventive care.</div></div></li>
+      </ul>
+    </div>
+    <div class="awards-panel">
+      <div class="sec-eyebrow" style="color:var(--lime)">Awards & Recognition</div>
+      <div class="award-row"><div class="award-val">#1</div><div><div class="award-title">Times of India Top Dental Clinic</div><div class="award-sub">Bengaluru — 2021</div></div></div>
+      <div class="award-row"><div class="award-val">4.9</div><div><div class="award-title">Highest Rated Dental Clinic on Google</div><div class="award-sub">500+ verified reviews · Bengaluru</div></div></div>
+      <div class="award-row"><div class="award-val">16</div><div><div class="award-title">Years Serving Bengaluru</div><div class="award-sub">Established since 2008</div></div></div>
+      <div class="award-row"><div class="award-val">3</div><div><div class="award-title">Clinic Locations Across Bengaluru</div><div class="award-sub">Indiranagar · RR Nagar · MG Road</div></div></div>
+      <div class="award-row"><div class="award-val">10K</div><div><div class="award-title">Patients Successfully Treated</div><div class="award-sub">Including international patients</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNOLOGY -->
+<section class="tech-section">
+  <div class="tech-inner">
+    <div class="sec-eyebrow">Advanced Technology</div>
+    <h2 class="sec-h2">World-Class Equipment<br>at Every Bengaluru Clinic</h2>
+    <div class="tech-grid">
+      <div class="tech-card"><div class="tech-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--teal);margin-bottom:16px;">01</div><div class="tech-name">CEREC CAD/CAM</div><div class="tech-desc">Design, mill, and fit crowns, bridges, and veneers in one appointment. Bengaluru's only single-visit dentistry technology. Eliminates the need for temporary restorations or lab wait times.</div><div class="tech-badge">Single Visit Crowns</div></div>
+      <div class="tech-card"><div class="tech-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--teal);margin-bottom:16px;">02</div><div class="tech-name">Waterlase iPlus Laser</div><div class="tech-desc">Water-activated laser for cavity preparation and root canals without traditional drills. Significantly less discomfort, faster healing, and often no anaesthesia required.</div><div class="tech-badge">Painless Root Canals</div></div>
+      <div class="tech-card"><div class="tech-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--teal);margin-bottom:16px;">03</div><div class="tech-name">Biolase Soft Tissue Laser</div><div class="tech-desc">Precision gum reshaping and periodontal therapy. Minimal bleeding, no sutures needed, faster recovery. Used in gum contouring, lesion removal, and smile corrections.</div><div class="tech-badge">Laser Gum Treatment</div></div>
+      <div class="tech-card"><div class="tech-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--teal);margin-bottom:16px;">04</div><div class="tech-name">Dürr Digital X-Ray</div><div class="tech-desc">High-resolution digital imaging with 90% less radiation than traditional X-rays. Instant results for faster diagnosis and treatment planning at all 3 Bengaluru clinics.</div><div class="tech-badge">Low Radiation Imaging</div></div>
+      <div class="tech-card"><div class="tech-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--teal);margin-bottom:16px;">05</div><div class="tech-name">Sterilization Bioclave 21L</div><div class="tech-desc">Medical-grade autoclave sterilization for all instruments. Every instrument sterilized between patients — complete infection control at Indiranagar, RR Nagar, and MG Road.</div><div class="tech-badge">100% Sterile</div></div>
+      <div class="tech-card"><div class="tech-icon" style="font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--teal);margin-bottom:16px;">06</div><div class="tech-name">Dental Loupes</div><div class="tech-desc">High-magnification precision loupes used during every procedure. Allows detection of issues invisible to the naked eye — ensuring conservative treatments and better outcomes.</div><div class="tech-badge">Precision Dentistry</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews-section">
+  <div class="reviews-inner">
+    <div class="sec-eyebrow" style="color:var(--teal2)">Patient Reviews</div>
+    <h2 class="sec-h2 white">What Bengaluru Patients<br>Say About Us</h2>
+    <div class="reviews-grid">
+      <div class="review-card"><div class="review-stars"></div><p class="review-text">"Very state of the art and modern infrastructure. Dr Akarsh did a commendable job for a very problematic tooth. The in-house milled crown looks and feels like a real tooth. Thankful for a good experience."</p><div class="review-author">Suma Chandramouli</div><div class="review-loc">Indiranagar Clinic</div><div class="review-treatment">CEREC Crown · Single Visit</div></div>
+      <div class="review-card"><div class="review-stars"></div><p class="review-text">"A very professional and friendly clinic. My tooth extraction was painless and done in less than 10 minutes. High-end experience without the overcharging fee. Very calm and collected staff."</p><div class="review-author">Thanmayei Raj</div><div class="review-loc">MG Road Clinic</div><div class="review-treatment">Tooth Extraction</div></div>
+      <div class="review-card"><div class="review-stars"></div><p class="review-text">"Thanks to Dr Urvashi Tanwar and her team who provided the solution with limited fuss and pain. Smooth procedure and I can smile again freely! Highly recommend for anyone in Bengaluru."</p><div class="review-author">Rohan Dorbala</div><div class="review-loc">RR Nagar Clinic</div><div class="review-treatment">Dental Treatment</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ MAIN -->
+<section style="padding:100px 5%;background:var(--white);" id="faq-main">
+  <div style="max-width:1300px;margin:0 auto;display:grid;grid-template-columns:1fr 1.4fr;gap:80px;align-items:start;">
+    <div>
+      <div class="sec-eyebrow">Common Questions</div>
+      <h2 class="sec-h2">Frequently Asked<br>Questions</h2>
+      <p class="sec-desc">Everything you need to know about dental treatment in Bangalore at Kamakshi Dental.</p>
+      <div style="margin-top:32px;display:flex;flex-direction:column;gap:12px;">
+        <a href="#indiranagar" style="background:var(--offwhite);border:1px solid var(--border);border-radius:12px;padding:14px 18px;font-size:14px;color:var(--text);display:flex;justify-content:space-between;align-items:center;">Indiranagar Clinic FAQs <span style="color:var(--teal)">→</span></a>
+        <a href="#rrnagar" style="background:var(--offwhite);border:1px solid var(--border);border-radius:12px;padding:14px 18px;font-size:14px;color:var(--text);display:flex;justify-content:space-between;align-items:center;">RR Nagar Clinic FAQs <span style="color:var(--teal)">→</span></a>
+        <a href="#mgroad" style="background:var(--offwhite);border:1px solid var(--border);border-radius:12px;padding:14px 18px;font-size:14px;color:var(--text);display:flex;justify-content:space-between;align-items:center;">MG Road Clinic FAQs <span style="color:var(--teal)">→</span></a>
+      </div>
+    </div>
+    <div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">What is single visit dentistry and how does it work?</span><div class="faq-icon">+</div></div><div class="faq-a">Single visit dentistry uses CEREC CAD/CAM technology to digitally scan, design, mill, and fit crowns, bridges, veneers, and inlays — all in one 90-minute appointment. No impressions, no temporary restorations, no lab wait. Kamakshi Dental is Bengaluru's only clinic offering true single-visit dentistry.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">How is dental implant pricing determined in Bangalore?</span><div class="faq-icon">+</div></div><div class="faq-a">Dental implant pricing at Kamakshi Dental depends on the implant type, bone condition, and complexity. Book a free consultation at your nearest branch for a personalised quote.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">How is Invisalign pricing determined in Bangalore?</span><div class="faq-icon">+</div></div><div class="faq-a">Invisalign treatment in Bangalore at Kamakshi Dental ranges from personalised pricing based on your case.  Free first consultation at all 3 clinics.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">Is root canal treatment painful at Kamakshi Dental?</span><div class="faq-icon">+</div></div><div class="faq-a">No. Using Waterlase laser technology and modern anaesthesia, root canal treatment at Kamakshi Dental is largely pain-free. Most procedures are completed in a single 60–90 minute appointment. No drills, no repeated visits.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">Which Kamakshi Dental clinic is closest to me?</span><div class="faq-icon">+</div></div><div class="faq-a">Indiranagar (New Tippasandra) serves East Bengaluru — Indiranagar, HAL, Domlur, Koramangala. RR Nagar (BEML Layout) serves West Bengaluru — Nagarbhavi, Kengeri, Uttarahalli. MG Road (Ashok Nagar) serves Central Bengaluru — Brigade Road, Cubbon Park, Commercial Street.</div></div>
+      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><span class="faq-q-text">Who is Dr. Akarsh Bilimagga?</span><div class="faq-icon">+</div></div><div class="faq-a">Dr. Akarsh Bilimagga is an MDS specialist in Periodontics and Oral Implantology with 8+ years of experience. He pioneered single-visit CEREC dentistry in Bengaluru and has completed 10,000+ procedures including 2,000+ dental implants. He treats international patients for implants and Invisalign at Kamakshi Dental's 3 Bengaluru clinics.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- APPOINTMENT -->
+<section class="appt-section" id="appointment">
+  <div class="appt-inner">
+    <div>
+      <div class="appt-left-tag">Book Now</div>
+      <div class="appt-h2">Request an<br>Appointment</div>
+      <p class="appt-desc">Fill the form and our team will confirm your appointment within 30 minutes during clinic hours. Same-day slots often available.</p>
+      <div class="appt-contact-list">
+        <div class="appt-contact"><div class="appt-contact-icon"></div><div><div class="appt-contact-name">Indiranagar — New Tippasandra</div><div class="appt-contact-phone">08123-122155</div><div class="appt-contact-val">No 338, 4th Main Road, Bengaluru 560075</div></div></div>
+        <div class="appt-contact"><div class="appt-contact-icon"></div><div><div class="appt-contact-name">RR Nagar — BEML Layout</div><div class="appt-contact-phone">08123-322155</div><div class="appt-contact-val">Dr H. Srinivasaiah Rd, Bengaluru 560098</div></div></div>
+        <div class="appt-contact"><div class="appt-contact-icon"></div><div><div class="appt-contact-name">MG Road — Ashok Nagar</div><div class="appt-contact-phone">08123-222155</div><div class="appt-contact-val">No 35, United Mansion, Bengaluru 560001</div></div></div>
+        <div class="appt-contact"><div class="appt-contact-icon"></div><div><div class="appt-contact-name">Timings — All Clinics</div><div class="appt-contact-val">Monday–Saturday · 9:00 AM – 8:00 PM</div></div></div>
+      </div>
+    </div>
+    <div class="form-card">
+      <div class="form-h3">Book Your Appointment</div>
+      <div class="form-row">
+        <div class="form-group"><label>First Name</label><input type="text" placeholder="Rahul"></div>
+        <div class="form-group"><label>Last Name</label><input type="text" placeholder="Sharma"></div>
+      </div>
+      <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="+91 98765 43210"></div>
+      <div class="form-group"><label>Email Address</label><input type="email" placeholder="you@email.com"></div>
+      <div class="form-group">
+        <label>Preferred Location</label>
+        <select>
+          <option value="">Select your nearest clinic</option>
+          <option>Indiranagar — New Tippasandra · 08123-122155</option>
+          <option>RR Nagar — BEML Layout · 08123-322155</option>
+          <option>MG Road — Ashok Nagar · 08123-222155</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Treatment Required</label>
+        <select>
+          <option value="">Select treatment</option>
+          <option>Dental Implants</option>
+          <option>Invisalign / Clear Aligners</option>
+          <option>Root Canal Treatment</option>
+          <option>Porcelain Veneers</option>
+          <option>Teeth Whitening</option>
+          <option>Single Visit Crown / Bridge</option>
+          <option>Smile Correction / Braces</option>
+          <option>Preventive Check-up & Cleaning</option>
+          <option>Other / Not Sure</option>
+        </select>
+      </div>
+      <div class="form-group"><label>Preferred Date</label><input type="date"></div>
+      <button class="submit-btn" onclick="handleSubmit()">Confirm Appointment →</button>
+      <p class="form-note">You will receive a WhatsApp confirmation within 30 minutes · Monday–Saturday 9 AM–8 PM</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="logo-wrap">
+          <img src="kamakshi-dental-logo.png" alt="Kamakshi Dental - Single Visit Dentistry">
+        </div>
+        <p class="footer-brand-desc">Bengaluru's only true single-visit dental clinic. CEREC CAD/CAM, Waterlase laser, and specialist care across Indiranagar, RR Nagar, and MG Road. TOI Top Dental Clinic 2021 · 4.9 Google Rating.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="#services-section">Dental Implants Bangalore</a>
+        <a href="#services-section">Invisalign Bangalore</a>
+        <a href="#services-section">Root Canal Bangalore</a>
+        <a href="#services-section">Porcelain Veneers</a>
+        <a href="#services-section">Teeth Whitening</a>
+        <a href="#services-section">Single Visit Crowns</a>
+        <a href="#services-section">Dental Braces</a>
+      </div>
+      <div class="footer-col">
+        <h4>Locations</h4>
+        <a href="#indiranagar">Dental Clinic Indiranagar</a>
+        <a href="#indiranagar">Dentist New Tippasandra</a>
+        <a href="#rrnagar">Dental Clinic RR Nagar</a>
+        <a href="#rrnagar">Dentist BEML Layout</a>
+        <a href="#mgroad">Dental Clinic MG Road</a>
+        <a href="#mgroad">Dentist Ashok Nagar</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:09740583538">Indiranagar: 08123-122155</a>
+        <a href="tel:09740583538">RR Nagar: 08123-322155</a>
+        <a href="tel:09740583538">MG Road: 08123-222155</a>
+        <a href="mailto:kamakshidentalrr@gmail.com">kamakshidentalrr@gmail.com</a>
+        <a href="https://www.facebook.com/kamakshidental" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/kamakshidental" target="_blank">Instagram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 Kamakshi Dental · Best Dental Clinic in Bangalore · All Rights Reserved</div>
+      <div class="footer-credit">Developed by <a href="https://telzonmarketing.in" target="_blank" rel="noopener noreferrer">Telzon Marketing</a> · © 2026</div>
+      <div class="footer-seo">Best Dental Clinic Indiranagar · Dental Implants RR Nagar · Invisalign MG Road Bangalore</div>
+    </div>
+  </div>
+</footer>
+
+<!-- SCHEMA MARKUP — ALL 3 LOCATIONS -->
+<script type="application/ld+json">
+[
+  {
+    "@context":"https://schema.org",
+    "@type":"Dentist",
+    "name":"Kamakshi Dental - Indiranagar",
+    "description":"Best dental clinic in Indiranagar Bangalore. Single-visit dentistry, dental implants, Invisalign, root canal at New Tippasandra.",
+    "url":"https://kamakshidental.in/#indiranagar",
+    "telephone":"+91-08123-122155",
+    "email":"kamakshidental344@gmail.com",
+    "address":{"@type":"PostalAddress","streetAddress":"No 338, Ground Floor, 4th Main Road, HAL 3rd Stage, New Tippasandra","addressLocality":"Indiranagar","addressRegion":"Karnataka","postalCode":"560075","addressCountry":"IN"},
+    "geo":{"@type":"GeoCoordinates","latitude":12.9784,"longitude":77.6408},
+    "openingHours":"Mo-Sa 09:00-20:00",
+    "priceRange":"",
+    "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"500"},
+    "hasMap":"https://maps.google.com/?q=Kamakshi+Dental+Indiranagar+Bangalore",
+    "medicalSpecialty":["Dentistry","Oral Implantology","Orthodontics","Cosmetic Dentistry"]
+  },
+  {
+    "@context":"https://schema.org",
+    "@type":"Dentist",
+    "name":"Kamakshi Dental - RR Nagar",
+    "description":"Best dental clinic in RR Nagar Bangalore. Dental implants, Invisalign, root canal at BEML Layout Rajarajeshwari Nagar.",
+    "url":"https://kamakshidental.in/#rrnagar",
+    "telephone":"+91-08123-322155",
+    "email":"kamakshidentalrr@gmail.com",
+    "address":{"@type":"PostalAddress","streetAddress":"Dr H. Srinivasaiah Rd, Remco Bhel Layout, BEML Layout","addressLocality":"Rajarajeshwari Nagar","addressRegion":"Karnataka","postalCode":"560098","addressCountry":"IN"},
+    "openingHours":"Mo-Sa 09:00-20:00",
+    "priceRange":"",
+    "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"500"}
+  },
+  {
+    "@context":"https://schema.org",
+    "@type":"Dentist",
+    "name":"Kamakshi Dental - MG Road",
+    "description":"Best dental clinic on MG Road Bangalore. Single-visit dentistry, implants, Invisalign at Ashok Nagar Shanthala Nagar.",
+    "url":"https://kamakshidental.in/#mgroad",
+    "telephone":"+91-08123-222155",
+    "email":"mgroadkamakshi@gmail.com",
+    "address":{"@type":"PostalAddress","streetAddress":"No 35, United Mansion, Mahatma Gandhi Road, Shanthala Nagar, Ashok Nagar","addressLocality":"Bengaluru","addressRegion":"Karnataka","postalCode":"560001","addressCountry":"IN"},
+    "geo":{"@type":"GeoCoordinates","latitude":12.9716,"longitude":77.6099},
+    "openingHours":"Mo-Sa 09:00-20:00",
+    "priceRange":"",
+    "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"500"}
+  },
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"What is single visit dentistry?","acceptedAnswer":{"@type":"Answer","text":"Single visit dentistry uses CEREC CAD/CAM technology to design, mill, and fit crowns, bridges, and veneers in one 90-minute appointment. Kamakshi Dental is Bengaluru's only clinic with this technology."}},
+      {"@type":"Question","name":"How is dental implant pricing determined in Bangalore?","acceptedAnswer":{"@type":"Answer","text":"Dental implant pricing at Kamakshi Dental depends on the implant type, bone condition, and complexity. Book a free consultation at your nearest branch for a personalised quote.</script>
+
+<script>
+window.addEventListener('scroll',()=>{
+  document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>50);
+});
+function toggleFaq(el){
+  const isOpen=el.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(i=>{
+    i.classList.remove('open');
+    i.querySelector('.faq-icon').textContent='+';
+  });
+  if(!isOpen){
+    el.classList.add('open');
+    el.querySelector('.faq-icon').textContent='−';
+  }
+}
+function handleSubmit(){
+  // Collect form values
+  const fname = document.querySelector('input[placeholder="Rahul"]') ? document.querySelector('input[placeholder="Rahul"]').value.trim() : '';
+  const lname = document.querySelector('input[placeholder="Sharma"]') ? document.querySelector('input[placeholder="Sharma"]').value.trim() : '';
+  const phone = document.querySelector('input[type="tel"]') ? document.querySelector('input[type="tel"]').value.trim() : '';
+  const email = document.querySelector('input[type="email"]') ? document.querySelector('input[type="email"]').value.trim() : '';
+  const location = document.querySelector('select') ? document.querySelector('select').options[document.querySelector('select').selectedIndex].text : '';
+  const selects = document.querySelectorAll('select');
+  const treatment = selects[1] ? selects[1].options[selects[1].selectedIndex].text : '';
+  const date = document.querySelector('input[type="date"]') ? document.querySelector('input[type="date"]').value : '';
+
+  // Validate required fields
+  if (!fname || !phone) {
+    alert('Please enter your name and phone number to continue.');
+    return;
+  }
+
+  const name = (fname + ' ' + lname).trim();
+
+  // Build WhatsApp message
+  const waMsg = `Hello Kamakshi Dental,%0A%0AI would like to book an appointment.%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AEmail: ${encodeURIComponent(email || 'Not provided')}%0ALocation: ${encodeURIComponent(location)}%0ATreatment: ${encodeURIComponent(treatment)}%0APreferred Date: ${encodeURIComponent(date || 'Flexible')}%0A%0APlease confirm my appointment. Thank you!`;
+
+  const waNumber = '919740583538';
+  const waURL = `https://wa.me/${waNumber}?text=${waMsg}`;
+
+  // Build Email mailto link for clinic confirmation
+  const emailSubject = encodeURIComponent(`New Appointment Request - ${name}`);
+  const emailBody = encodeURIComponent(`New appointment request received from the website.\n\nPatient Details:\nName: ${name}\nPhone: ${phone}\nEmail: ${email || 'Not provided'}\nPreferred Location: ${location}\nTreatment Required: ${treatment}\nPreferred Date: ${date || 'Flexible'}\n\nPlease confirm the appointment via WhatsApp or call.`);
+  const mailtoURL = `mailto:akarsh.bilimagga@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+
+  // Open WhatsApp
+  window.open(waURL, '_blank');
+
+  // Send email notification after short delay
+  setTimeout(() => {
+    window.open(mailtoURL, '_blank');
+  }, 1500);
+
+  // Show confirmation message
+  setTimeout(() => {
+    alert('Your appointment request has been sent!\n\n1. WhatsApp message sent to Kamakshi Dental\n2. Our team will confirm within 30 minutes\n\nThank you for choosing Kamakshi Dental!');
+  }, 500);
+}
+</script>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<div id="wa-float" style="position:fixed;bottom:28px;right:28px;z-index:9999;">
+  <a href="https://wa.me/919740583538?text=Hello%20Kamakshi%20Dental%2C%20I%20would%20like%20to%20book%20an%20appointment." 
+     target="_blank"
+     title="Book on WhatsApp"
+     style="display:flex;align-items:center;gap:10px;background:#25D366;color:white;padding:14px 20px;border-radius:50px;text-decoration:none;box-shadow:0 4px 20px rgba(37,211,102,0.4);font-family:'Poppins',sans-serif;font-size:14px;font-weight:600;transition:all 0.3s;">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.136.564 4.14 1.534 5.875L.057 23.885a.5.5 0 0 0 .606.65l6.207-1.625A11.93 11.93 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.858 9.858 0 0 1-5.031-1.381l-.36-.214-3.733.978.997-3.645-.235-.374A9.847 9.847 0 0 1 2.106 12C2.106 6.532 6.532 2.106 12 2.106S21.894 6.532 21.894 12 17.468 21.894 12 21.894z"/>
+    </svg>
+    Book on WhatsApp
+  </a>
+</div>
+
+<style>
+#wa-float a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(37,211,102,0.5);
+}
+@media(max-width:600px){
+  #wa-float { bottom:16px; right:16px; }
+  #wa-float a { padding:12px 16px; font-size:13px; }
+}
+</style>
+
+</body>
+</html>
